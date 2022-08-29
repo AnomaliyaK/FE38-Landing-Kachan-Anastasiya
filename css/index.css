@@ -1,5 +1,6 @@
 @import url('../css/cdn.css');
 @import url('../css/awesome.css');
+@import url('../css/price.css');
 
 * {
   margin: 0;
@@ -45,5 +46,7 @@ html {
 .wrap {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
