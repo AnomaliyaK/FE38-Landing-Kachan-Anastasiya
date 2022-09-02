@@ -65,6 +65,7 @@
 .info-customers {
   align-items: center;
   margin: 0 15px;
+  margin-right: 50px;
 }
 .name-customers {
   display: block;
