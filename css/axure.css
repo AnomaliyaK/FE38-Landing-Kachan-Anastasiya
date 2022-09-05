@@ -1,6 +1,8 @@
 .axure {
   position: relative;
   background-image: url(../img/background\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 58px 0 38px;
 }
 .axure::after {
