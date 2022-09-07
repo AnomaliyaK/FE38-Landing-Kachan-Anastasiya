@@ -16,7 +16,9 @@
   left: 0;
   z-index: 1;
 }
-
+.main-info {
+  margin: 0 15px;
+}
 .main-title {
   width: 129px;
   font-size: 60px;
@@ -73,6 +75,9 @@
   background-color: #ffffff;
   font-weight: 500;
   transition: 0.2s;
+}
+.main-form {
+  margin: 0 15px;
 }
 .form-title {
   /* width: 252px; */
