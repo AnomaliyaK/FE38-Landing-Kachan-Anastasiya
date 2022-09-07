@@ -32,56 +32,49 @@
   text-align: center;
 }
 .social-item a {
-  display: inline-block;
+  display: block;
   font-size: 42px;
   color: #86878b;
 }
-.social-item-facebook:hover {
-  transform: scale(1.2);
+.fa-facebook-f:hover {
   transition: 0.2s;
   color: #3b5998;
-  transform: rotate(10deg);
-  transform-origin: center;
+  transform-origin: top left;
+  transform: rotate(10deg) scale(1.2);
 }
-.social-item-twitter:hover {
-  transform: scale(1.5);
+.fa-twitter:hover {
   transition: 0.2s;
   color: #1da1f2;
-  transform: rotate(30deg);
+  transform: rotate(30deg) scale(1.5);
   transform-origin: center;
 }
-.social-item-plusgoogle:hover {
-  transform: scale(0.8);
+.fa-google-plus-g:hover {
   transition: 0.2s;
   color: #db4a39;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) scale(0.8);
   transform-origin: center;
 }
-.social-item-pinterest:hover {
-  transform: scale(1.1);
+.fa-pinterest:hover {
   transition: 0.2s;
   color: #e60023;
-  transform: rotate(-180deg);
+  transform: rotate(-180deg) scale(1.5);
   transform-origin: center;
 }
-.social-item-instagram:hover {
-  transform: scale(2);
+.fa-instagram:hover {
   transition: 0.2s;
   color: #bc2a8d;
-  transform: rotate(360deg);
+  transform: rotate(360deg) scale(2);
   transform-origin: center;
 }
-.social-item-stumbleupon:hover {
-  transform: scale(0.9);
+.fa-stumbleupon:hover {
   transition: 0.2s;
   color: #f74425;
-  transform: rotate(45deg);
-  transform-origin: center;
+  transform: rotate(45deg) scale(3);
+  transform-origin: top right;
 }
-.social-item-rss:hover {
-  transform: scale(0.5);
+.fa-rss:hover {
   transition: 0.2s;
   color: #ee802f;
-  transform: rotate(-75deg);
+  transform: rotate(-75deg) scale(0.5);
   transform-origin: center;
 }

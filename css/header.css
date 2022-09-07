@@ -32,5 +32,6 @@
 .navigation-item a:hover {
   transform: scale(1.2);
   transition: 0.2s;
-  border-bottom: 1px solid #ffffff;
+  /* border-bottom: 1px solid #ffffff; */
+  text-decoration: underline;
 }

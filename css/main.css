@@ -1,0 +1,129 @@
+.main {
+  position: relative;
+  background-image: url(../img/background-1\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 99px 0 112px;
+}
+.main::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main-title {
+  width: 129px;
+  font-size: 60px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+.main-info-title {
+  width: 544px;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 71px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  line-height: 50px;
+}
+.main-info-title::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  display: block;
+  background-color: #ffffff;
+  margin: 40px 0;
+}
+.main-info-text {
+  width: 250px;
+  font-size: 14px;
+  color: #86878b;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.download-main {
+  display: flex;
+  justify-content: flex-start;
+}
+.link-main {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  border: 1px solid #ffffff;
+  width: 135px;
+  line-height: 42px;
+  transition: 0.2s;
+}
+.link-main:hover {
+  color: #333333;
+  border: 1px solid #333333;
+  background-color: #ffffff;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.form-title {
+  /* width: 252px; */
+  font-size: 20px;
+  text-transform: capitalize;
+  line-height: 56px;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 44px;
+}
+.form-title-free {
+  text-transform: uppercase;
+  color: #ec7979;
+}
+
+.form {
+  width: 370px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.form-content {
+  padding: 0 59px 61px;
+}
+
+.form-item {
+  margin-bottom: 19px;
+}
+.form-item:last-child {
+  margin-bottom: 0;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+input {
+  display: block;
+  width: 100%;
+  border: #ffffff;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 7px 5px;
+}
+.form-button {
+  display: block;
+  width: 100%;
+  height: 54px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #ec7979;
+  border: 0;
+}
