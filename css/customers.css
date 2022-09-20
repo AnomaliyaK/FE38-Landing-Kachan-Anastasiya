@@ -49,8 +49,8 @@
 }
 .wrap-castomers {
   display: flex;
-  justify-content: space-between;
-  margin: 0 -15px;
+  justify-content: space-around;
+  /* margin: 0 -15px; */
 }
 .castomers-item-img {
   width: 70px;
@@ -59,13 +59,13 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
-  margin: 0 15px;
-  margin-left: 60px;
+  /* margin: 0 15px;
+  margin-left: 60px; */
 }
 .info-customers {
   align-items: center;
-  margin: 0 15px;
-  margin-right: 50px;
+  /* margin: 0 15px;
+  margin-right: 50px; */
 }
 .name-customers {
   display: block;

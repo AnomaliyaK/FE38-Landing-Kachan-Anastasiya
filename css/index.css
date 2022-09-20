@@ -9,6 +9,7 @@
 @import url('../css/main.css');
 @import url('../css/contacts.css');
 @import url('../css/tabs.css');
+@import url('../css/media.css');
 
 * {
   margin: 0;
@@ -23,7 +24,7 @@ html {
 .container {
   max-width: 1170px;
   margin: auto;
-  /* padding: 0 15px; */
+  padding: 0 15px;
   position: relative;
   z-index: 2;
 }

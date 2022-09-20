@@ -19,7 +19,7 @@
 .main-info {
   margin: 0 15px;
 }
-.main-title {
+.main-logo {
   width: 129px;
   font-size: 60px;
   text-align: left;
@@ -29,7 +29,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
-.main-info-title {
+.main-title {
   width: 544px;
   font-size: 36px;
   text-transform: uppercase;
@@ -39,7 +39,7 @@
   font-weight: normal;
   line-height: 50px;
 }
-.main-info-title::after {
+.main-title::after {
   content: '';
   width: 64px;
   height: 2px;
@@ -83,7 +83,7 @@
   /* width: 252px; */
   font-size: 20px;
   text-transform: capitalize;
-  line-height: 56px;
+  /* line-height: 56px; */
   align-items: center;
   text-align: center;
   color: #333333;
@@ -101,7 +101,7 @@
   overflow: hidden;
 }
 .form-content {
-  padding: 0 59px 61px;
+  padding: 20px 59px 61px;
 }
 
 .form-item {

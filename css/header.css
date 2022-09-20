@@ -19,7 +19,6 @@ nav {
 }
 .navigation-list {
   display: flex;
-
   align-items: center;
 }
 .navigation-item {
